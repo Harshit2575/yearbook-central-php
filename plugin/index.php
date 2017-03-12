@@ -10,6 +10,11 @@ session_destroy();
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta property="og:url" content="http://www.sac.iitkgp.ac.in/yearbook/plugin/index.php" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Yearbook 2017 Portal" />
+	<meta property="og:description" content="Student Alumni Cell welcomes you to Yearbook'17 Portal" />
+	<meta property="og:image" content="http://www.sac.iitkgp.ac.in/yearbook/plugin/screen.jpg" />
 	<link rel="stylesheet" type="text/css" href="animate.css">
 		<title>Yearbook</title>
 </head>
@@ -67,9 +72,9 @@ session_destroy();
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	font-size: 40px;
-	top: 15%;
+	font-size: 22;
 	left: 50%;
+	top:110px;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
@@ -80,16 +85,16 @@ session_destroy();
 }
 .form{
 	position: absolute;
-	top: 35%;
+	top: 40%;
 }
 
 </style>
 <body>
 <div class="container-fluid">
 	<div id="large-header" class="large-header" style="height: 613px; z-index: 100">
-			<canvas id="demo-canvas" width="1366" height="613"></canvas>
+		<img style="padding-top: 7px; padding-bottom: 7px;" class="center" height="100" width="250" src="sac.png" alt="someimg"><canvas id="demo-canvas" height="613"> </canvas>
 
-			<h2 class="center main-title animated zoomIn">Welcome to<b> Yearbook'17</b> Portal </h2>
+	<h2 class="center main-title animated zoomIn">Welcomes you to<b> Yearbook'17</b> Portal </h2>
 
 			<form method="post" action="loginconnect.php" class="form main-title center">
 
